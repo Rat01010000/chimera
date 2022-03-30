@@ -12,6 +12,7 @@ class ChildrenSerializer(fields.Field):
         retval = []
         for item in value:
             retval.append({
+                              'id': item.id,
                               'title': item.title,
                               'body': item.body,
                           })
