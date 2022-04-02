@@ -7,6 +7,8 @@ from wagtail.admin.edit_handlers import FieldPanel
 from rest_framework import fields
 from wagtail.api import APIField
 
+import requests
+
 class ChildrenSerializer(fields.Field):
     def to_representation(self, value):
         retval = []
@@ -33,3 +35,10 @@ class HomePage(Page):
     api_fields = [
         APIField('cards', serializer=ChildrenSerializer(source='get_child_pages'))
     ]
+
+    def save(self, clean=True, user=None, log_action=False, **kwargs):
+        try:
+            return super().save(clean, user, log_action, **kwargs)
+        finally:
+            r = requests.get('http://localhost:3000/api/revalidate?secret=123')
+            print(r.json())
