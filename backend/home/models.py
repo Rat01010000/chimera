@@ -13,10 +13,12 @@ class ChildrenSerializer(fields.Field):
     def to_representation(self, value):
         retval = []
         for item in value:
+            print(item.image)
             retval.append({
                               'id': item.id,
                               'title': item.title,
                               'body': item.body,
+                              'image': item.image.url,
                           })
         return retval
 
@@ -24,8 +26,11 @@ class ChildrenSerializer(fields.Field):
 class HomePage(Page):
     body = RichTextField(blank=True)
 
+    image = models.ImageField(upload_to='imgs/', default='imgs/1.png')
+
     content_panels = Page.content_panels + [
         FieldPanel('body', classname="full"),
+        FieldPanel('image')
     ]
 
     @property
