@@ -1,37 +1,46 @@
-import DOMPurify from 'isomorphic-dompurify'
 import Image from 'next/image'
 
-function Header(props) {
+import wb from './src/img/wb.jpg'
+import info from './src/img/info.png'
+import home from './src/img/home.png'
+import virus from './src/img/virus.png'
+import eye from './src/img/eye.png'
+import deer from './src/img/deer.png'
 
-  const defaultOptions = {
-    ALLOWED_TAGS: ['b', 'i', 'em', 'strong', 'a', 'br', 'h2'],
-    ALLOWED_ATTR: ['href']
-  };
 
-  const sanitize = (dirty, options) => ({
-    __html: DOMPurify.sanitize(
-      dirty,
-      { ...defaultOptions, ...options }
-    )
-  });
-
-  const SanitizeHTML = ({ html, options }) => (
-    <div dangerouslySetInnerHTML={sanitize(html, options)} />
-  );
-
-  const imgSrc = 'http://127.0.0.1:8000'
+function Header() {
   return (
     <div>
-      <h1>hello world!</h1>
-      <ul>
-        {props.cards.map((card) => (
-          <div key={card.id}>
-            <p>{card.title}</p>
-            <Image src={imgSrc + card.image} width={200} height={200} />
-            <SanitizeHTML html={card.body} />
+      <nav>
+        <div className="logo-container">
+          <Image src={wb} alt="#" />
+          <p className="chimera"> Химера </p>
+        </div>
+        <ul className='navbar'>
+          <li><Image src={info} alt="#" /></li>
+          <li><Image src={home} alt="#" /></li>
+          <li><Image src={virus} alt="#" /></li>
+          <li><Image src={eye} alt="#" /></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
+
+      <div>
+        <div className="block">
+          <div className="paralm"></div>
+          <h1>Истоки</h1>
+          <h3>Языки программирования</h3>
+          <div className="greeting">
+            <p>Добро пожаловать на тропу познания.</p>
+            <p>Приятного путешествия!</p>
           </div>
-        ))}
-      </ul>
+        </div>
+
+        <div className="deer">
+          <Image src={deer} alt="#" />
+        </div>
+      </div>
     </div>
   )
 }
