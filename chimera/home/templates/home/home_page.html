@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load static %}
+<!-- {% load static %} -->
 
 {% block body_class %}template-homepage{% endblock %}
 
@@ -9,6 +9,8 @@
 Delete the line below if you're just getting started and want to remove the welcome screen!
 {% endcomment %}
 <!-- <link rel="stylesheet" href="{% static 'css/welcome_page.css' %}"> -->
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/reset.css' %}">
 {% endblock extra_css %}
 
 {% block content %}
@@ -17,5 +19,7 @@ Delete the line below if you're just getting started and want to remove the welc
 Delete the line below if you're just getting started and want to remove the welcome screen!
 {% endcomment %}
 <!-- {% include 'home/welcome_page.html' %} -->
+
+{% include 'home/base.html' %}
 
 {% endblock content %}
