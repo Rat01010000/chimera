@@ -51,6 +51,7 @@
 </div>
 
 {% for p in page.get_children %}
+<div id="{{p.specific.title}}" class="nav-div"></div>
 <div class="rect1" id="{{p.specific.title}}">
   {{p.specific.body|richtext}}
 </div>

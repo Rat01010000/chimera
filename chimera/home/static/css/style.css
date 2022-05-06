@@ -148,8 +148,13 @@ nav li:last-child{
 }
 
 /*----------Block fo Info----------*/
-.rect1{
+
+.nav-div {
+    height: 7%;
     margin-top: 23.5%;
+}
+
+.rect1{
     margin-left: 10%;
     width: 80%;
 	background: #7b0632;
@@ -189,7 +194,7 @@ nav li:last-child{
 }
 
 .cube2{
-    margin: 5px;
+    margin: 1%;
     margin-left: -3%;
     width: 20vw;
     height: 20vw;
@@ -203,7 +208,7 @@ nav li:last-child{
 }
 
 .cube3{
-    margin: 5px;
+    margin: 1%;
     width: 20vw;
     height: 20vw;
     background: #fd3d79;
@@ -221,7 +226,7 @@ nav li:last-child{
     background: #ff9951;
     margin-left:10%;
     border-radius: 1.4%/2%;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .addinfo1 i {
@@ -317,6 +322,10 @@ nav li:last-child{
     .logo-container img{
         width: 2.5rem;
         height: 2.5rem;
+    }
+
+    .cube2 {
+        box-shadow: 0 0;
     }
 
     .chimera{
