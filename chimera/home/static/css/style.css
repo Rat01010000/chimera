@@ -149,261 +149,227 @@ nav li:last-child{
 
 /*----------Block fo Info----------*/
 .rect1{
-    position: absolute;
-    z-index: -1;
     margin-top: 23.5%;
     margin-left: 10%;
     width: 80%;
-	height: 130%;
 	background: #7b0632;
     border-radius: 1.4%/2%;
 }
 
-#info{
-     position: absolute;
-    z-index: 1;
-    margin-top: 24%;
-    margin-left: 10.5%;
+.rect1 i{
     width: 50%;
-	height: 90%;
-    font-size: 3rem
+    font-size: 3rem;
+    padding: 0.5rem;
+    color: white;
+}
+
+.rect1 p {
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+.space {
+    height: 5vw;
 }
 
 .cube1{
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: 35%;
-   background: #fd3d79;
-    margin-top: 21%;
-    margin-left: 67%;
+    width: 20vw;
+    height: 20vw;
+    background: #fd3d79;
     border-radius: 1.4%/2%;
+    float: right;
+    margin: 5px;
+    margin-top: -3%;
+    margin-right: -3%;
+    padding: 0.5rem;
+    overflow: hidden;
+    font-size: 0.8vw;
+    box-shadow: 5px 5px 5px #7b0632;
 }
 
 .cube2{
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: 35%;
-   background: #fd3d79;
-    margin-top: 40%;
-    margin-left: 8%;
+    margin: 5px;
+    margin-left: -3%;
+    width: 20vw;
+    height: 20vw;
+    background: #fd3d79;
     border-radius: 1.4%/2%;
+    float: left;
+    padding: 0.5rem;
+    overflow: hidden;
+    font-size: 0.8vw;
+    box-shadow: 5px 5px 5px #7b0632;
 }
 
 .cube3{
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: 35%;
-   background: #fd3d79;
-    margin-top: 76%;
-    margin-left: 67%;
+    margin: 5px;
+    width: 20vw;
+    height: 20vw;
+    background: #fd3d79;
     border-radius: 1.4%/2%;
+    float: right;
+    margin-right: -3%;
+    padding: 0.5rem;
+    overflow: hidden;
+    font-size: 0.8vw;
+    box-shadow: 5px 5px 5px #7b0632;
 }
 
 .addinfo1{
-    position: absolute;  
-    z-index: 1;
     width: 80%;
-    height: 30%;
     background: #ff9951;
-    margin-top: 96%;
     margin-left:10%;
     border-radius: 1.4%/2%;
-
+    margin-top: 5%;
 }
 
-.cube1>p{
-    font-size: 2rem;
-}
-
-.cube2>p{
-    font-size: 2rem;
-}
-
-.cube3>p{
-    font-size: 2rem;
-}
-
-.addinfo1{
+.addinfo1 i {
     font-size: 3rem;
-}
-/*----------Block for virus---------*/
-
-.rect1-1{
-    position: absolute;
-    z-index: -1;
-    margin-top: 130%;
-    margin-left: 10%;
-    width: 80%;
-	height: 130%;
-	background: #7b0632;
-    border-radius: 1.4%/2%;
+    padding: 1rem;
 }
 
-#virus{
-     position: absolute;
-    z-index: 1;
-    margin-top: 130.5%;
-    margin-left: 10.5%;
-    width: 50%;
-	height: 90%;
-    font-size: 3rem
+.addinfo1 p {
+    font-size: 1.2rem;
+    padding: 0.1rem;
 }
-
-.cube1-1{
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: 35%;
-   background: #fd3d79;
-    margin-top: 127.5%;
-    margin-left: 67%;
-    border-radius: 1.4%/2%;
-}
-
-.cube2-1{
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: 35%;
-   background: #fd3d79;
-    margin-top: 146.5%;
-    margin-left: 8%;
-    border-radius: 1.4%/2%;
-}
-
-.cube3-1{
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: 35%;
-   background: #fd3d79;
-    margin-top: 182.5%;
-    margin-left: 67%;
-    border-radius: 1.4%/2%;
-}
-
-.addinfo2{
-    position: absolute;  
-    z-index: 1;
-    width: 80%;
-    height: 30%;
-    background: #ff9951;
-    margin-top: 202.5%;
-    margin-left:10%;
-    border-radius: 1.4%/2%;
-
-}
-
-.cube1-1>p{
-    font-size: 2rem;
-}
-
-.cube2-1>p{
-    font-size: 2rem;
-}
-
-.cube3-1>p{
-    font-size: 2rem;
-}
-
-.addinfo2{
-    font-size: 3rem;
-}
-/*---------Block for Biom----------*/
-
-.rect1-2{
-    position: absolute;
-    z-index: -1;
-    margin-top: 236.5%;
-    margin-left: 10%;
-    width: 80%;
-	height: 130%;
-	background: #7b0632;
-    border-radius: 1.4%/2%;
-}
-
-#biom{
-     position: absolute;
-    z-index: 1;
-    margin-top: 237%;
-    margin-left: 10.5%;
-    width: 50%;
-	height: 90%;
-    font-size: 3rem
-}
-
-.cube1-2{
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: 35%;
-   background: #fd3d79;
-    margin-top: 234%;
-    margin-left: 67%;
-    border-radius: 1.4%/2%;
-}
-
-.cube2-2{
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: 35%;
-   background: #fd3d79;
-    margin-top: 253%;
-    margin-left: 8%;
-    border-radius: 1.4%/2%;
-}
-
-.cube3-2{
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: 35%;
-   background: #fd3d79;
-    margin-top: 289%;
-    margin-left: 67%;
-    border-radius: 1.4%/2%;
-}
-
-.addinfo3{
-    position: absolute;  
-    z-index: 1;
-    width: 80%;
-    height: 30%;
-    background: #ff9951;
-    margin-top: 309%;
-    margin-left:10%;
-    border-radius: 1.4%/2%;
-
-}
-
-
-.cube1-2>p{
-    font-size: 2rem;
-}
-
-.cube2-2>p{
-    font-size: 2rem;
-}
-
-.cube3-2>p{
-    font-size: 2rem;
-}
-
-.addinfo3{
-    font-size: 3rem;
-}
-
-/*-------------------------------------*/
 
 #invis{
-    position: absolute;
-    z-index: 2;
     width:30%;
     height: 30%;
-    margin-top: 350%;
+    margin-top: 20%;
 }
 
+@media only screen and (max-width: 1360px) {
+    .rect1 i {
+        font-size: 1.5rem;
+    }
+    .rect1 p {
+        font-size: 1rem;
+    }
+    .logo-container img{
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .chimera{
+        color: #f9b169;
+        font-size: 3rem;
+        margin-left: 1%;
+    }
+    .block h1{    
+        z-index: 2;
+        color: #f9b169;
+        font-size: 3.5rem;
+        margin-left: 1%;
+    }
+
+    .block h3{
+        z-index: 2;
+        color: #f9b169;
+        font-size: 2.5rem;
+        margin-left: 5.5rem;
+    }
+    .greeting {
+        --b:5px;   /* thickness of the border */
+        --c:white;   /* color of the border */
+        --w:25px;  /* width of border */
+        
+        border:var(--b) solid transparent; /* space for the border */
+    --g:#0000 90deg,var(--c) 0;
+    background:
+        conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--g)) 0 0,
+        conic-gradient(from 180deg at top    var(--b) right var(--b),var(--g)) 100% 0,
+        conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--g)) 0    100%,
+        conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--g)) 100% 100%;
+    background-size:var(--w) var(--w);
+    background-origin:border-box;
+    background-repeat:no-repeat;
+        
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        width: 45%;
+        margin: 0 21%;
+        margin-top: 2rem;
+    }
+    .greeting p {
+        line-height: 1.5rem;  
+    }
+    .addinfo1 i {
+        font-size: 2rem;
+        padding: 0.5rem;
+    }
+
+    .addinfo1 p {
+        font-size: 1rem;
+        padding: 0.1rem;
+    }
+}
+
+@media only screen and (max-width: 846px) {
+    .rect1 i {
+        font-size: 0.8rem;
+    }
+    .rect1 p {
+        font-size: 0.5rem;
+    }
+    .logo-container img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .chimera{
+        color: #f9b169;
+        font-size: 2rem;
+        margin-left: 1%;
+    }
+    .block h1{    
+        z-index: 2;
+        color: #f9b169;
+        font-size: 1rem;
+        margin-left: 1%;
+    }
+
+    .block h3{
+        z-index: 2;
+        color: #f9b169;
+        font-size: 0.7rem;
+        margin-left: 1.5rem;
+    }
+    .greeting {
+        --b:2px;   /* thickness of the border */
+        --c:white;   /* color of the border */
+        --w:15px;  /* width of border */
+        
+        border:var(--b) solid transparent; /* space for the border */
+    --g:#0000 90deg,var(--c) 0;
+    background:
+        conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--g)) 0 0,
+        conic-gradient(from 180deg at top    var(--b) right var(--b),var(--g)) 100% 0,
+        conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--g)) 0    100%,
+        conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--g)) 100% 100%;
+    background-size:var(--w) var(--w);
+    background-origin:border-box;
+    background-repeat:no-repeat;
+        
+        color: white;
+        font-size: 0.8rem;
+        text-align: center;
+        width: 45%;
+        margin: 0 21%;
+        margin-top: 1rem;
+    }
+    .greeting p {
+        line-height: 1rem;
+    }
+    .addinfo1 i {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .addinfo1 p {
+       font-size: 0.5rem;
+        padding: 0.1rem;
+    }
+}
