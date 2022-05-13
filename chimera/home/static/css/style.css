@@ -1,5 +1,9 @@
 body{
     background-color: #100c3f;
+    background-image: url("imgs/binary2-50%.png");
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .logo-container {
