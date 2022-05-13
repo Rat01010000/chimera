@@ -391,3 +391,42 @@ filter: opacity(60%);
         padding: 0.1rem;
     }
 }
+
+/* ----------End----------- */
+
+#end>img{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 340%;
+    
+}
+
+#recend{
+    position: absolute;
+    z-index: 1;
+    margin-top: 365%;
+    width: 100%;
+    height: 33%;
+    background: rgb(175,11,64);
+}
+
+.tend>p{
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    margin-top: 368%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.tend>span{
+     width: 100%;
+    position: absolute;
+    z-index: 5;
+    margin-top: 374%;
+    font-size: 2rem;
+    text-align:center;
+    margin-left: -1%;
+
+
