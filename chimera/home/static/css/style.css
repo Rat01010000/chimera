@@ -49,6 +49,13 @@ nav li:last-child{
     margin-right: 0;
 }
 
+.navp{
+    font-size: 5rem;
+    margin-top: 1.8%;
+    margin-left: 1%;
+    color: white;
+}
+
 button{
 background:transparent;
 z-index: 8;
