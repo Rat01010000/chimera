@@ -8,11 +8,11 @@
 
   <ul>
     <li>
-      <img src="{% static 'imgs/info.png' %}" alt="#" />
+      <img src="{% static 'imgs/null.png' %}" alt="#" />
     </li>
 
     <li>
-      <a href="#infor"> <img src="{% static 'imgs/home.png' %}" alt="#" /> </a>
+      <a href="#infor"> <img src="{% static 'imgs/binary-code.png' %}" alt="#" /> </a>
     </li>
 
     <li>
@@ -27,9 +27,14 @@
       <img src="{% static 'imgs/null.png' %}" alt="#" />
     </li>
 
-    <li></li>
+    <li> <p class="navp"> Навигационная панель </p> </li>
+    
   </ul>
 </nav>
+
+<button onclick="scrollWin()" style="position:fixed; bottom: 0">
+    <img src="{% static 'imgs/scroll.png' %}" alt="#" style="width: 100%; padding: 10%" />
+</button>
 
 <div>
   <div class="block">
@@ -68,4 +73,23 @@
 -Найти справочник по href/a и найти,как правильно сделать отступ
 -->
 
-<div id="invis"></div>
+<!--<div id="invis"></div>-->
+
+<div id="end">
+    <img src="{% static 'imgs/city.png' %}" alt="#">
+    <div class="tend">
+        <p>
+            Работа "Гильдии бинарно одарённых" <br>
+            Урюпкина Екатерина|Морозов Михаил|Истомина Дарья
+        </p>
+        <p class="second-p">
+            Прикладная информатика
+            Группа 1.7 <br>
+            Институт Высоких Технологий <br> и Пьезотехники
+        </p>
+    </div>
+</div>                 
+       
+
+  <!-- <script src="src/js/scroll.js"></script>  -->   
+<!-- Подключить Js файл для кнопки -->
