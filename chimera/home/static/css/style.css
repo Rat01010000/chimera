@@ -162,11 +162,11 @@ filter: opacity(60%);
     line-height: 2.5rem;  
 }
 
-.deer img{
-    width: 36%;
+.trio img{
+width: 47.5%;
     z-index: 3;
     position: absolute;
-    left: 62%;
+    left: 52%;
     top: 0;
 }
 
